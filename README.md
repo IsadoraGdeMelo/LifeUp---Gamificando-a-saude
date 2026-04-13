@@ -1,8 +1,4 @@
-Para manter o padrão de excelência do GitHub, o README.md deve ser escrito em Markdown, utilizando elementos visuais (emojis), blocos de código bem definidos e uma estrutura que facilite a leitura rápida (scannability).
-
-Aqui está a versão final estruturada com o equilíbrio ideal entre maiúsculas e minúsculas, seguindo as melhores práticas da comunidade:
-
-🚀 LifeUp: Level up your health
+🚀 LifeUp: Gamificando a Saúde
 O LifeUp é uma aplicação desktop desenvolvida em Java que transforma o combate ao sedentarismo numa jornada interativa de RPG. Através da gamificação, o esforço físico realizado no mundo real é convertido em evolução direta de um personagem virtual.
 
 🎮 O Conceito
