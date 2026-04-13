@@ -1,42 +1,48 @@
-🚀 LifeUp: Eleve a sua saúde para o próximo nível
-O LifeUp é uma aplicação desktop desenvolvida em Java que transforma o combate ao sedentarismo numa jornada interativa de RPG. A ideia central é simples: o seu esforço físico no mundo real reflete-se na evolução de um personagem virtual.
+Para manter o padrão de excelência do GitHub, o README.md deve ser escrito em Markdown, utilizando elementos visuais (emojis), blocos de código bem definidos e uma estrutura que facilite a leitura rápida (scannability).
+
+Aqui está a versão final estruturada com o equilíbrio ideal entre maiúsculas e minúsculas, seguindo as melhores práticas da comunidade:
+
+🚀 LifeUp: Level up your health
+O LifeUp é uma aplicação desktop desenvolvida em Java que transforma o combate ao sedentarismo numa jornada interativa de RPG. Através da gamificação, o esforço físico realizado no mundo real é convertido em evolução direta de um personagem virtual.
 
 🎮 O Conceito
-Muitos profissionais e estudantes passam horas sentados em frente ao computador, o que prejudica a saúde a longo prazo. O LifeUp atua como um incentivo lúdico:
+Muitos profissionais e estudantes passam horas em frente ao computador, o que prejudica a saúde a longo prazo. O LifeUp atua como um incentivo lúdico:
 
 Movimentou-se? Ganhe experiência (XP) e suba de nível.
 
 Ficou inativo? O seu Avatar mostra sinais de cansaço ou desânimo.
 
-Cumpriu metas? Desbloqueie conquistas e medalhas.
+Cumpriu metas? Desbloqueie conquistas e medalhas exclusivas.
 
-🛠️ Engenharia de Software e Padrões de Projeto
-O projeto foi estruturado utilizando os padrões de projeto do GoF (Gang of Four) para garantir um código limpo, modular e fácil de manter:
+🛠️ Engenharia de Software
+Este projeto foi construído focando em Clean Code e na aplicação de padrões de projeto do GoF (Gang of Four):
 
-Strategy: Utilizado para processar diferentes tipos de exercícios com regras de pontuação distintas.
+Strategy: Implementado para processar diferentes algoritmos de ganho de XP de acordo com o tipo de atividade física.
 
-Observer: Garante que a interface gráfica e o sistema de conquistas sejam atualizados instantaneamente após qualquer atividade.
+Observer: Utilizado para que a interface gráfica e o sistema de conquistas sejam atualizados automaticamente sempre que o progresso ocorre.
 
-State: Gere o comportamento e o aspeto do Avatar com base no histórico recente de atividades do utilizador.
+State: Gere os estados comportamentais e visuais do Avatar (ex: Ativo, Sedentário, Exausto).
 
-Factory Method: Cria missões diárias de forma dinâmica e aleatória.
+Factory Method: Responsável pela criação dinâmica e aleatória de missões diárias.
 
 ✨ Funcionalidades Principais
-Painel de Controlo (Dashboard): Visualização clara do nível, experiência e status atual.
+Painel de Controlo (Dashboard): Visualização em tempo real do nível, XP e status do personagem.
 
-Sistema de Missões: Desafios diários para quebrar a rotina sedentária.
+Sistema de Missões: Desafios gerados diariamente para quebrar a rotina.
 
-Feedback Visual: Interface construída em JavaFX focada na experiência do utilizador.
+Feedback Visual: Interface rica construída em JavaFX para garantir a melhor experiência de utilizador.
 
-Histórico de Progresso: Registo das últimas atividades e evolução do personagem.
+Persistência de Dados: Registo local da jornada e do progresso do utilizador.
 
-🚀 Como Executar o Projeto
+🚀 Como Executar
 Clonar o repositório:
 
 Bash
 git clone https://github.com/seu-usuario/lifeup.git
-Configurar a IDE: Importe o projeto como um projeto Java/Maven na sua IDE de preferência (IntelliJ, Eclipse ou VS Code).
+Importar o Projeto: Utilize a sua IDE de preferência (IntelliJ, Eclipse ou VS Code) como um projeto Java.
 
-Executar: Inicie a aplicação através da classe principal Main.java.
+Executar: Inicie a aplicação através da classe principal:
 
+Plaintext
+src/main/java/com/lifeup/Main.java
 "Transformando o sedentarismo no Boss Final que todos conseguem derrotar." ⚔️
