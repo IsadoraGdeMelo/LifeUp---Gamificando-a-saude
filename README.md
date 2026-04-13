@@ -31,15 +31,3 @@ Feedback Visual: Interface rica construída em JavaFX para garantir a melhor exp
 
 Persistência de Dados: Registo local da jornada e do progresso do utilizador.
 
-🚀 Como Executar
-Clonar o repositório:
-
-Bash
-git clone https://github.com/seu-usuario/lifeup.git
-Importar o Projeto: Utilize a sua IDE de preferência (IntelliJ, Eclipse ou VS Code) como um projeto Java.
-
-Executar: Inicie a aplicação através da classe principal:
-
-Plaintext
-src/main/java/com/lifeup/Main.java
-"Transformando o sedentarismo no Boss Final que todos conseguem derrotar." ⚔️
