@@ -1,4 +1,5 @@
 🚀 LifeUp: Gamificando a Saúde
+
 O LifeUp é uma aplicação desktop desenvolvida em Java que transforma o combate ao sedentarismo numa jornada interativa de RPG. Através da gamificação, o esforço físico realizado no mundo real é convertido em evolução direta de um personagem virtual.
 
 🎮 O Conceito
